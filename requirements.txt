@@ -1,2 +1,3 @@
 sympy>=1.13.3
 ceo-py>=0.12.0rc0
+duckduckgo_search>=7.3.0
