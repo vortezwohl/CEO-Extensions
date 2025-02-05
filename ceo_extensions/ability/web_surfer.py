@@ -5,7 +5,7 @@ ddgs = DDGS()
 
 
 @ability
-def search_on_duckduckgo(keywords: list[str], max_results_for_each_keywords: int = 5):
+def search_on_duckduckgo(keywords: list[str], max_results_for_each_keywords: int = 3) -> dict:
     # search on duckduckgo if you don't know clearly about something
     # you can search several keywords at the same time with `search_on_duckduckgo`
     results = dict()
